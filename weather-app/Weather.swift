@@ -8,16 +8,6 @@
 
 import Foundation
 
-struct Weather {
+struct Weather: Codable {
     let currently: CurrentWeather
-}
-
-extension Weather {
-    init?(json: [String: AnyObject]) {
-        guard let currentWeatherJSON = json["currently"] as? [String: AnyObject], let currentWeather = CurrentWeather(json: currentWeatherJSON) else {
-            return nil
-        }
-
-        self.currently = currentWeather
-    }
 }

@@ -14,7 +14,6 @@
 		972470B920A27F0100050DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972470B720A27F0100050DF7 /* LaunchScreen.storyboard */; };
 		A7064941225CEDA300C3FC43 /* CurrentWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7064940225CEDA300C3FC43 /* CurrentWeatherViewModel.swift */; };
 		A7064943225CF54000C3FC43 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7064942225CF54000C3FC43 /* CurrentWeather.swift */; };
-		A7064945225E21E100C3FC43 /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7064944225E21E100C3FC43 /* JSONDownloader.swift */; };
 		A7064947225F47F100C3FC43 /* DarkSkyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7064946225F47F100C3FC43 /* DarkSkyError.swift */; };
 		A706494B225F8A1600C3FC43 /* DarkSkyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A706494A225F8A1600C3FC43 /* DarkSkyAPIClient.swift */; };
 		A706494D225F8C0000C3FC43 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A706494C225F8C0000C3FC43 /* Coordinates.swift */; };
@@ -22,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		972470AB20A27F0000050DF7 /* weather-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather-app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		972470AB20A27F0000050DF7 /* weather-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weather-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		972470AE20A27F0000050DF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		972470B020A27F0000050DF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		972470B320A27F0000050DF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,7 +30,6 @@
 		972470BA20A27F0100050DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7064940225CEDA300C3FC43 /* CurrentWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewModel.swift; sourceTree = "<group>"; };
 		A7064942225CF54000C3FC43 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
-		A7064944225E21E100C3FC43 /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
 		A7064946225F47F100C3FC43 /* DarkSkyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyError.swift; sourceTree = "<group>"; };
 		A706494A225F8A1600C3FC43 /* DarkSkyAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyAPIClient.swift; sourceTree = "<group>"; };
 		A706494C225F8C0000C3FC43 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
@@ -76,13 +74,12 @@
 				972470B020A27F0000050DF7 /* ViewController.swift */,
 				A7064942225CF54000C3FC43 /* CurrentWeather.swift */,
 				A7064940225CEDA300C3FC43 /* CurrentWeatherViewModel.swift */,
-				A7064944225E21E100C3FC43 /* JSONDownloader.swift */,
 				A7064946225F47F100C3FC43 /* DarkSkyError.swift */,
 				A706494A225F8A1600C3FC43 /* DarkSkyAPIClient.swift */,
 				A706494C225F8C0000C3FC43 /* Coordinates.swift */,
 				A706494E225F933E00C3FC43 /* Weather.swift */,
 			);
-			path = weather-app;
+			path = "weather-app";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,8 +97,8 @@
 			);
 			dependencies = (
 			);
-			name = weather-app;
-			productName = weather-app;
+			name = "weather-app";
+			productName = "weather-app";
 			productReference = 972470AB20A27F0000050DF7 /* weather-app.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -161,7 +158,6 @@
 				A7064947225F47F100C3FC43 /* DarkSkyError.swift in Sources */,
 				A706494B225F8A1600C3FC43 /* DarkSkyAPIClient.swift in Sources */,
 				A706494F225F933E00C3FC43 /* Weather.swift in Sources */,
-				A7064945225E21E100C3FC43 /* JSONDownloader.swift in Sources */,
 				972470AF20A27F0000050DF7 /* AppDelegate.swift in Sources */,
 				A7064941225CEDA300C3FC43 /* CurrentWeatherViewModel.swift in Sources */,
 				A706494D225F8C0000C3FC43 /* Coordinates.swift in Sources */,
@@ -310,12 +306,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9E84DX62H;
-				INFOPLIST_FILE = weather-app/Info.plist;
+				INFOPLIST_FILE = "weather-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.weather-app;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teamtreehouse.weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,12 +324,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9E84DX62H;
-				INFOPLIST_FILE = weather-app/Info.plist;
+				INFOPLIST_FILE = "weather-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.teamtreehouse.weather-app;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teamtreehouse.weather-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
